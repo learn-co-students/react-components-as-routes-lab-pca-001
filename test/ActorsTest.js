@@ -29,6 +29,7 @@ describe('Actors', () => {
   });
 
   it("should render a <div /> for each actor", () => {
+    console.log(wrapper.children("div").length)
     expect(wrapper.children().find('div').length).to.equal(4);
   });
 
